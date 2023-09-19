@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 40px;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 5px;
+  text-transform: uppercase;
+
+}
+
+img {
+  width: 100px;
+  height: 120px;
+  position: absolute;
+  right: 0;
+  margin: 20px;
+}
+
+a{
+  color: black;
+}
+
+.header {
+  height: 200px;
+  width: 100%;
+
+  /* background: rgb(58,18,136);
+background: radial-gradient(circle, rgba(58,18,136,1) 0%, rgba(148,187,233,1) 100%); */
+
+  /* background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+
+  background: rgb(253, 252, 251);
+  background: radial-gradient(
+    circle,
+    rgba(253, 252, 251, 1) 0%,
+    rgba(226, 209, 195, 1) 100%
+  );
+
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact{
+margin-top: 10px;
+display:flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.phone{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
